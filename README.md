@@ -1,6 +1,5 @@
-# share_mate
-
-A new Flutter project.
+<h1 align="center" style="font-size: 40px;" ><img height=40 src="assets/images/logo.png">ShareMate - Your Sharify friend</h1>
+ShareMate is a file sharing app that makes it easy to share files with your friends, family, and colleagues.
 
 ## Getting Started
 
