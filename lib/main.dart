@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'config/config.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,9 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Sharemate',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: const Color(0XFF4884FE),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: SHOW_DEBUG_CHECKED_BANNER,
     );
   }
 }
